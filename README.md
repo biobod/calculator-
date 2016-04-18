@@ -1,2 +1,2 @@
 # calculator-
-me firs calculator 
+My firs calculator just for fun and  experience
