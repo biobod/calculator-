@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<meta charset = "utf-8">
+
+<title> Calculator </title>
+</head>
+<body>
+<div style = "text-align: center">
+<h1>Калькулятор</h1>
+<input type = "text" id="messageArea" placeholder="0"><br><br>
+<button id="k1" onclick ="show.displayNumbers(1)">1</button>
+<button id="k2" onclick ="show.displayNumbers(2)">2</button>
+<button id="k3" onclick ="show.displayNumbers(3)">3</button>
+<button id="k4" onclick ="show.displayNumbers(4)">4</button>
+<button id="k5" onclick ="show.displayNumbers(5)">5</button>
+<button id="k6" onclick ="show.displayNumbers(6)">6</button>
+<button id="k7" onclick ="show.displayNumbers(7)">7</button>
+<button id="k8" onclick ="show.displayNumbers(8)">8</button>
+<button id="k9" onclick ="show.displayNumbers(9)">9</button>
+<button id="k0" onclick ="show.displayNumbers(0)">0</button><br><br>
+<button id="sum" onclick ="show.displayNumbers(' + ')">+</button>
+<button id="minus" onclick ="show.displayNumbers(' - ')">-</button>
+<button id="mult" onclick ="show.displayNumbers(' * ')">*</button>
+<button id="divide" onclick ="show.displayNumbers(' / ')">/</button><br><br>
+<button id="result">=</button>
+<button id="clean" onclick ="show.displayClean()">C</button>
+</div>
+<script src ="calcjs.js"></script> 
+</body>
+</html>
